@@ -1,12 +1,154 @@
+/* Police Import */
+@import url(http://fonts.googleapis.com/css?family=Seymour+One);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+
 /* Bases du Design */
-
 html{
-	margin:0;
-	padding:0;
+margin:0;
+padding:0;
 }
-
 body{
-	max-width: 1200px;
-	margin:0 auto;
-	padding:0;
+margin:0;
+padding:0;
+background-image: url(../img/bg.jpg);
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+}
+/* Header */
+
+header{
+height:100px;
+}
+header h1{
+display:inline-block;
+margin:20px;
+font-family:'Seymour One', sans-serif;
+font-size:3em;
+color:maroon;
+}
+header p{
+display:inline-block;
+font-weight:bold;
+font-family:'Clicker Script', cursive;
+font-size:2em;
+}
+/* Header Fin */
+
+/* Navigation */
+/* Navigation Pages */
+nav{
+float:left;
+width:160px;
+margin-left:5px;
+}
+nav ul{
+margin:0;
+padding:0;
+}
+nav li{
+display:block;
+}
+nav li a{
+display:inline-block;
+width:160px;
+text-align:center;
+background:white;
+color:#615334;
+text-decoration:none;
+line-height:2em;
+/*linear-gradient*/
+
+/*box-shadow*/
+-webkit-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+   -moz-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+        box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+/*transition*/
+-webkit-transition:all 0.3s ease-out;
+   -moz-transition:all 0.3s ease-out;
+     -o-transition:all 0.3s ease-out;
+        transition:all 0.3s ease-out;
+}
+.ex1 a:hover,  
+.ex1 a:focus{
+/*transform*/
+-webkit-transform:scale(1.2);
+   -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+     -o-transform:scale(1.2);
+        transform:scale(1.2);
+/*box-shadow*/
+-webkit-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+   -moz-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+        box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+/* Navigation catégories */
+aside{
+float:left;
+margin-left:5px;
+width:160px;
+}
+aside ul{
+margin:0;
+padding:0;
+}
+aside li{
+display:block;
+}
+aside li a{
+display:inline-block;
+width:160px;
+text-align:center;
+background:white;
+color:#615334;
+text-decoration:none;
+line-height:2em;
+
+/*box-shadow*/
+-webkit-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+   -moz-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+        box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
+/*transition*/
+-webkit-transition:all 0.3s ease-out;
+   -moz-transition:all 0.3s ease-out;
+     -o-transition:all 0.3s ease-out;
+        transition:all 0.3s ease-out;
+}
+.ex2 a:hover,  
+.ex2 a:focus{
+/*transform*/
+-webkit-transform:scale(1.2);
+   -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+     -o-transform:scale(1.2);
+        transform:scale(1.2);
+/*box-shadow*/
+-webkit-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+   -moz-box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+        box-shadow:0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 15px #b6a684;
+}
+/* Fin Navigation */
+
+/* Contenu articles */
+article{
+margin-left:340px;
+margin-right:10px;
+padding:0 10px 0 10px;
+}
+/* Footer */
+
+footer{
+background-color:gray;
+margin:0 10px 0 10px;
+line-height:2.2;
+text-align: center;
+}
+.left{
+float:left;
+margin-left:10px;
+}
+.right{
+float:right;
+margin-right:10px;
 }
